@@ -72,6 +72,7 @@
 
 \newcommand{\header}[3]{%
   \begin{tikzpicture}[remember picture,overlay]
+  \begin{scope}[on background layer]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
       \fontsize{40pt}{72pt}\color{header}%
@@ -82,7 +83,9 @@
       \fontsize{14pt}{24pt}\color{header}%
       \thinfont #3%
     };
+    \end{scope}
   \end{tikzpicture}
+  %\includegraphics[scale=0.25, right]{qr}
   \vspace{2.5cm}
   \vspace{-2\parskip}
 }

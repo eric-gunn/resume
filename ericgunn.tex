@@ -1,12 +1,23 @@
 %!TEX TS-program = xelatex
 \documentclass[print]{gunn-resume}
 %\usepackage{showframe}
-
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{picture}
+\graphicspath{ {images/} }
+\usepackage{tikz}
+\usetikzlibrary{backgrounds}
 \begin{document}
 %\textheight = 525pt
+
+
 \header{eric}{gunn}
        {university of missouri}
-
+%for QR
+\begin{tikzpicture}[remember picture, overlay]
+	\node (qr) at (12.5,-0.5) {\includegraphics[scale=0.2]{qr}};
+\end{tikzpicture}
+%end for QR
 
 % In the aside, each new line forces a line break
 \begin{aside}
@@ -23,15 +34,16 @@
     AppleScript
     Java, Ruby
     68HC11 Assembly
- \section{databases}
+ \section{databases/ORMs}
  ~
- MySQL
  SQLite
  PostgreSQL
+ SQLAlchemy
+ MySQL/MariaDB
  \section{frameworks}
  ~
  Flask, Laravel/Lumen
- Materialize, Pure
+ Materialize, Skeleton
  Foundation, Bootstrap
  \section{tools}
  ~
@@ -48,7 +60,7 @@
  Senior Business Leader\\VP, Information Security
  \href{http://mastercard.com}{MasterCard}
  \href{16367227378}{636.722.7378}
-\href{mailto:poonam_verma@mastercard.com}{poonam\_verma@\\mastercard.com}
+\href{mailto:poonam_verma@mastercard.com}{poonam\_verma\\@mastercard.com}
  ~
  Jason Eplawy
  Founder, CEO
@@ -62,10 +74,13 @@
 %\href{tel:3178761913}{317.876.1913}
 %\href{mailto:andyb@aepi.org}{andyb@aepi.org}
 \end{aside}
+%for QR
+%\vspace{-0.5cm}
+%end for QR
 
 \section{interests}
 
-big data, cryptography, discrete mathematics, network security, problem solving
+big data, cryptography, discrete mathematics, malware analysis, network security
 \section{education}
 
 \begin{entrylist}
