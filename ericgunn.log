@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  20 JAN 2016 22:03
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  21 JAN 2016 13:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1091,8 +1091,8 @@ LaTeX Info: Redefining \nameref on input line 10.
 \@outlinefile=\write5
 \openout5 = `ericgunn.out'.
 
-File: images/qr.pdf Graphic file (type QTm)
- <use  "images/qr.pdf" >
+File: images/qr4.pdf Graphic file (type QTm)
+ <use  "images/qr4.pdf" >
 LaTeX Font Info:    Font shape `EU1/XITSMath(1)/m/n' will be
 (Font)              scaled to size 10.00015pt on input line 31.
 LaTeX Font Info:    Font shape `EU1/XITSMath(1)/m/n' will be
@@ -1136,7 +1136,7 @@ Package logreq Info: Writing requests to 'ericgunn.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  41351 strings out of 493706
- 779749 string characters out of 6145769
+ 779751 string characters out of 6145769
  1211369 words of memory out of 5000000
  44178 multiletter control sequences out of 15000+600000
  5798 words of font info for 67 fonts, out of 8000000 for 9000
