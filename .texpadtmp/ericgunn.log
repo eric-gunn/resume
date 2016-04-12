@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  23 FEB 2016 18:05
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  1 APR 2016 20:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1116,7 +1116,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--130
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--160
+Underfull \hbox (badness 10000) in paragraph at lines 133--167
 
  []
 
@@ -1125,11 +1125,11 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 ) [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 161.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 161.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (/Users/ericgunn/projects/resume/.texpadtmp/ericgunn.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 161.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 161.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 168.
 Package logreq Info: Writing requests to 'ericgunn.run.xml'.
 \openout1 = `ericgunn.run.xml'.
 
