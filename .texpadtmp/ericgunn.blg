@@ -1,5 +1,5 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
 [0] Config.pm:346> INFO - Logfile is '/Users/ericgunn/projects/resume/.texpadtmp/ericgunn.blg'
-[47] biber-darwin:290> INFO - === Thu Jan  5, 2017, 20:50:43
-[66] Biber.pm:351> INFO - Reading '/Users/ericgunn/projects/resume/.texpadtmp/ericgunn.bcf'
-[155] Utils.pm:149> WARN - No data sources defined!
+[48] biber-darwin:290> INFO - === Thu Jan  5, 2017, 20:52:45
+[72] Biber.pm:351> INFO - Reading '/Users/ericgunn/projects/resume/.texpadtmp/ericgunn.bcf'
+[160] Utils.pm:149> WARN - No data sources defined!
